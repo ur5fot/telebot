@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "alert_odessa_bot/index.js"
+    "start": "node alert_odessa_bot/index.js"
   },
   "author": "",
   "license": "ISC",
