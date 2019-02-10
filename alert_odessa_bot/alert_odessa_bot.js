@@ -14,8 +14,8 @@ class AlertOdessaBot extends BaseBot {
     init() {
         const _this     = this;
         const cronParam = {
-            // time: '*/59 * * * *',
-            time: '*/1 * * * *',
+            time: '*/59 * * * *',
+            // time: '*/1 * * * *',
             async callback() {
                 await _this.getOMR();
             }
